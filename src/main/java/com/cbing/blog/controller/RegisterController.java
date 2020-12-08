@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RegisterController {
     @GetMapping("/register")
-    @ApiOperation("测试Swagger功能")
     public String register(){
         return "register page";
     }

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
     @GetMapping("/login")
-    @ApiOperation("测试Swagger功能")
     public  String login(){
         return  "Login page";
     }
