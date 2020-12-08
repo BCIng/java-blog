@@ -5,12 +5,12 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api(tags = "登录")
+@Api(tags = "注册")
 @RestController
-public class LoginController {
-    @GetMapping("/login")
+public class RegisterController {
+    @GetMapping("/register")
     @ApiOperation("测试Swagger功能")
-    public  String login(){
-        return  "Login page";
+    public String register(){
+        return "register page";
     }
 }
